@@ -1,6 +1,6 @@
 package sk.itsovy.jackanin.bitOperators;
 
-public class Student implements HELP{
+public class Student{
     private String name;
     private byte attWeek;
     private Address address;
@@ -73,9 +73,5 @@ public class Student implements HELP{
             case TRAVELLING:    if ((this.hobby & 128) == 128){ return true; } else break;
         }
         return false;
-    }
-    @Override
-    public String getHelp() {
-        return "get some help! GERRARA HERE!";
     }
 }

@@ -115,8 +115,6 @@ public class Main {
         //MAIN METHOD USES
         main1.getHobbies(stList, Hobbies.PROGRAMMING);
         main1.getAtLeastThreeHobbies(stList);
-
-        System.out.println(student1.getName()+" "+student1.getHelp());
     }
 
     public void getHobbies(Student[] list, Hobbies hobby){
